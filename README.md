@@ -19,9 +19,11 @@ Data Preparation:
   - Stock Splits: The stock splits of the company. In a stock split, a company divides its existing stock into multiple shares to boost liquidity.
 
 2. Check Missing Values to ensure data quality and data accuracy
-3. Feature Selection (Using Pearson Correlation)
+   
+4. Feature Selection (Using Pearson Correlation)
    - Since only Open, High , Low , Close (OHLC) have a high correlation , we will be transform OHLC into new variable 'Average'
-4. EDA
+     
+5. EDA
 
 Model using predictive model:
 1. SVR
@@ -31,8 +33,10 @@ Model Evaluation:
 - Root Mean Squared Error (RMSE) and Mean Absolute Percentage Error (MAPE).
 
 Advanced Analysis
-- Prediction for next 30 days.
+- Prediction for next 30 days using LSTM.
 
-The Stacked LSTM model is used to perform forecasting on the full JNJ dataset and the RMSE values obtained for the training set and testing set are 0.2167 and 2.3747 whereas 
-the MAPE values obtained are 1.7414% and 1.2100%. Stacked LSTM is also used for forecasting the average stock prices of the full XOM dataset and the training set obtained an RMSE value of 0.2550 and 0.9429 for the test set. The RMSE of the SVR model of the training set and testing set are 14.3198 and 19.8299 respectively whereas the MAPE values are 
-66.8251% and 27.4985%. 
+Results:
+- LSTM obtained highest accuracy as compared to SVR.
+- LSTM model is used to perform forecasting on the full JNJ dataset and the RMSE values obtained for the training set and testing set are 0.2167 and 2.3747 whereas 
+the MAPE values obtained are 1.7414% and 1.2100%. LSTM is also used for forecasting the average stock prices of the full XOM dataset and the training set obtained an RMSE value of 0.2550 and 0.9429 for the test set. 
+- The RMSE of the SVR model of the training set and testing set are 14.3198 and 19.8299 respectively whereas the MAPE values are 66.8251% and 27.4985%. 
