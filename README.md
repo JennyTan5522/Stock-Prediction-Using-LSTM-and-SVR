@@ -38,6 +38,7 @@ Data Preparation:
     ![image](https://github.com/user-attachments/assets/c24daeab-60cc-42c9-8d0f-50ebddcf8c24)
   
   - Association between the XOM and JNJ has been evaluated on a heatmap. It displays an extremely high correlation of 0.88. In other words, it indicates that XOM and JNJ are likely to have a similar business nature.
+    
     ![image](https://github.com/user-attachments/assets/5401b9f2-8d64-469c-9aa8-6cea1545cc71)
 
 
@@ -120,6 +121,7 @@ JNJ Dataset
    ![image](https://github.com/user-attachments/assets/d9062f75-6b9d-48c3-bd28-50264766b9f8)
 
    SVR: Forecasting for the Partial JNJ dataset
+   
    ![image](https://github.com/user-attachments/assets/10408a3a-63fe-4d68-998d-7875b92997c4)
 
 XOM Dataset
