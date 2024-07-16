@@ -25,26 +25,31 @@ Data Preparation:
 
      ![image](https://github.com/user-attachments/assets/437a2630-229a-40e8-a46e-7f629785458a)
 
-- 10-day, 100-day, and 365-day moving averages of each stock has been determined to identify the trends.
+  - 10-day, 100-day, and 365-day moving averages of each stock has been determined to identify the trends.
+  
+    ![image](https://github.com/user-attachments/assets/2b531e7a-70b4-45b9-9f0e-557a0e7585a4)
+  
+    ![image](https://github.com/user-attachments/assets/044c2256-9db8-43f9-9688-2842b505cc14)
 
-  ![image](https://github.com/user-attachments/assets/2b531e7a-70b4-45b9-9f0e-557a0e7585a4)
+  - Based on the last four historical data points, JNJ's risk and return performance shows a minimum risk of 1.2% but surpasses it with a higher return (about 0.048% return). In contrast, the XOM exhibits a high risk but low expected return   (about 0.041% return and 1.8% risk). Lower risk and greater return lead to the conclusion that JNJ is the more effective of the two (i.e., worth investing).
+  
+    ![image](https://github.com/user-attachments/assets/e7a3a791-3313-43d4-a4cf-ef4329f4f09c)
 
-  ![image](https://github.com/user-attachments/assets/044c2256-9db8-43f9-9688-2842b505cc14)
-
-- Based on the last four historical data points, JNJ's risk and return performance shows a minimum risk of 1.2% but surpasses it with a higher return (about 0.048% return). In contrast, the XOM exhibits a high risk but low expected return (about 0.041% return and 1.8% risk). Lower risk and greater return lead to the conclusion that JNJ is the more effective of the two (i.e., worth investing).
-
-  ![image](https://github.com/user-attachments/assets/e7a3a791-3313-43d4-a4cf-ef4329f4f09c)
-
-- Association between the XOM and JNJ has been evaluated on a heatmap. It displays an extremely high correlation of 0.88. In other words, it indicates that XOM and JNJ are likely to have a similar business nature.
-  ![image](https://github.com/user-attachments/assets/5401b9f2-8d64-469c-9aa8-6cea1545cc71)
+    ![image](https://github.com/user-attachments/assets/c24daeab-60cc-42c9-8d0f-50ebddcf8c24)
+  
+  - Association between the XOM and JNJ has been evaluated on a heatmap. It displays an extremely high correlation of 0.88. In other words, it indicates that XOM and JNJ are likely to have a similar business nature.
+    ![image](https://github.com/user-attachments/assets/5401b9f2-8d64-469c-9aa8-6cea1545cc71)
 
 
 3. Check Missing Values to ensure data quality and data accuracy
-   ![image](https://github.com/user-attachments/assets/2b2af2af-a2d2-49b0-81f7-499439e58b30)
 
    
 5. Feature Selection (Using Pearson Correlation)
-   - Since only Open, High , Low , Close (OHLC) have a high correlation , we will be transform OHLC into new variable 'Average'
+     - From previous research, it is shown that for trend detection of stock prices, the Open High Low Close (OHLC) levels have high predictive potentials and are easier to predict compared to the traditional Close price.
+     - From the Pearson’s correlation coefficient performed for the JNJ and XOM datasets, at the threshold value of 0.9, the open, high, low and close attributes are highly correlated to each other, thus, the four columns will be selected as the target by transforming into an average which will be done in the data transformation step. The remaining variables, volume, stock splits and dividend are dropped from the dataset as they do not have high correlations to the target. 
+   ![image](https://github.com/user-attachments/assets/2b2af2af-a2d2-49b0-81f7-499439e58b30)
+     ![image](https://github.com/user-attachments/assets/0bf80675-3a8a-4b73-94c8-318588a11a76)
+
 
 Model using predictive model:
 1. SVR
