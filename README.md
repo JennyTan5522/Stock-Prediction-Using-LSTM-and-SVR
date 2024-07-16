@@ -73,7 +73,7 @@ Data Preparation:
 
 Model using predictive model:
 1. Stacked LSTM:
-   - 100 hidden neurons and use Rectified Linear Unit activation (ReLu) for the activation function.
+   - 4 layers, 100 hidden neurons and use Rectified Linear Unit activation (ReLu) for the activation function.
    - Adam optimizer
    - Number of epochs used to train the model is set to 100 and a batch size of 64.
    - This model can handle sequential data, and it is able to memorize and consider previous inputs and outputs when performing prediction.
