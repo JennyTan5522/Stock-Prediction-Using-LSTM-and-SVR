@@ -168,4 +168,7 @@ Actual and forecasted 30 days of extrapolated data by Stacked LSTM model for the
 ![image](https://github.com/user-attachments/assets/720f1f9a-cec4-477f-8eda-a2e2e3bcb1d8)
 
 Conclusion:
-- LSTM obtained highest accuracy as compared to SVR.
+- The Stacked LSTM model performs better and is more suitable for stock prediction than the SVR model. 
+- Scaling was very useful for improving accuracy for both models.
+- In terms of accuracy, both partial and full datasets used for the Stacked LSTM produced RMSE and MAPE that are smaller compared to the SVR model. Hence, it is safe to say that the Stacked LSTM is a better estimator compared to the SVR model as it has smaller error. 
+- For the forecasting of the extrapolated 30 days, the performance of the Stacked LSTM model is better. 
