@@ -42,6 +42,7 @@ Data Preparation:
 
 
 3. Check Missing Values to ensure data quality and data accuracy
+   
       ![image](https://github.com/user-attachments/assets/2b2af2af-a2d2-49b0-81f7-499439e58b30)
 
    
@@ -95,6 +96,7 @@ JNJ Dataset
   ![image](https://github.com/user-attachments/assets/a33711e1-52bc-4cd8-b9b7-4b41d448ea76)
 
   SVR: Full JNJ dataset and the RMSE values obtained for the training set and testing set are 14.3198 and 19.8299 whereas the MAPE values obtained are 66.8251% and 27.4985%.
+  
   ![image](https://github.com/user-attachments/assets/a0f32c03-0b95-4e04-bd6e-3a56b967241e)
 
 2) Stacked LSTM: Partial JNJ dataset and the RMSE values obtained for the training set and testing set are 1.6375 and 1.8993 whereas the MAPE values obtained are 0.8517% and 0.8849%.
@@ -161,7 +163,7 @@ Actual and forecasted 30 days of extrapolated data by Stacked LSTM model for the
    
  Actual and forecasted 30 days of extrapolated data by Stacked LSTM model for the partial XOM dataset
  
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/720f1f9a-cec4-477f-8eda-a2e2e3bcb1d8)
 
 Conclusion:
 - LSTM obtained highest accuracy as compared to SVR.
