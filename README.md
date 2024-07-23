@@ -120,7 +120,8 @@ XOM Dataset
 
    SVR: Full XOM
 
-   ![image](https://github.com/user-attachments/assets/de8c288a-1931-4841-a157-774b07d55fc4)
+   ![image](https://github.com/user-attachments/assets/af47d6f4-9b15-4c4c-8562-6f0be6008c35)
+
 
 2) Stacked LSTM: Partial XOM
 
