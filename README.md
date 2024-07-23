@@ -109,22 +109,6 @@ JNJ Dataset
 
   ![image](https://github.com/user-attachments/assets/11697ab5-6315-45ef-9630-726c8e075a1f)
 
-3) Stacked LSTM: Forecasting for the Full JNJ dataset
-   
-   ![image](https://github.com/user-attachments/assets/51b8e679-de5e-48ee-bf4a-9ac8b11b70b1)
-
-   SVR: Forecasting for the Full JNJ dataset
-
-   ![image](https://github.com/user-attachments/assets/0db77e88-0621-45f2-b32d-84806447857f)
-
-4) SVR: Forecasting for the Partial JNJ dataset
-
-   ![image](https://github.com/user-attachments/assets/d9062f75-6b9d-48c3-bd28-50264766b9f8)
-
-   SVR: Forecasting for the Partial JNJ dataset
-   
-   ![image](https://github.com/user-attachments/assets/10408a3a-63fe-4d68-998d-7875b92997c4)
-
 XOM Dataset
 1) Stacked LSTM: Full XOM
 
@@ -143,6 +127,8 @@ XOM Dataset
 
    ![image](https://github.com/user-attachments/assets/b3da2465-7ab8-4e24-b9b6-e2e25c35075b)
 
+- From the results of the two models, it is shown that the results of the models when only a portion of the datasets are used is better compared to the results when the full datasets are used for forecasting. Thus, only the results generated from the models when the partial datasets are used will be used to compare the performance of the models for the respective datasets to determine the best model for each dataset.
+  
 Plots:
 Actual and forecasted values by Stacked LSTM model for the partial JNJ dataset
 
