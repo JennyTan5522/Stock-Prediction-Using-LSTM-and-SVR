@@ -91,6 +91,8 @@ Model Evaluation:
 Advanced Analysis
 - Prediction for next 30 days using LSTM.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Results:
 JNJ Dataset
 1) Stacked LSTM: Full JNJ dataset and the RMSE values obtained for the training set and testing set are 0.2167 and 2.3747 whereas the MAPE values obtained are 1.7414% and 1.2100%.
@@ -114,7 +116,7 @@ JNJ Dataset
 XOM Dataset
 1) Stacked LSTM: Full XOM
 
-  ![image](https://github.com/user-attachments/assets/40e62ca0-a1aa-49a7-b0dd-b87ff232c465)
+  ![image](https://github.com/user-attachments/assets/b1e9a3c8-04a4-43fc-b820-2f30e4af8c89)
 
    SVR: Full XOM
 
