@@ -116,11 +116,19 @@ JNJ Dataset
 XOM Dataset
 1) Stacked LSTM: Full XOM
 
-  ![image](https://github.com/user-attachments/assets/b1e9a3c8-04a4-43fc-b820-2f30e4af8c89)
+   ![image](https://github.com/user-attachments/assets/217fa49e-0b40-4459-b21a-c00062e79ddc)
 
    SVR: Full XOM
 
-   ![image](https://github.com/user-attachments/assets/2c26c44e-f403-4352-8080-9b0374bf5a6a)
+   ![image](https://github.com/user-attachments/assets/de8c288a-1931-4841-a157-774b07d55fc4)
+
+2) Stacked LSTM: Partial XOM
+
+   ![image](https://github.com/user-attachments/assets/605d901c-8932-433f-8114-73a283fb8a7f)
+
+   SVR: Partial XOM
+
+   ![image](https://github.com/user-attachments/assets/852c2991-68a2-4eba-8cfd-c1614345e0c8)
 
 2)  SVR: Forecasting Full XOM
 
