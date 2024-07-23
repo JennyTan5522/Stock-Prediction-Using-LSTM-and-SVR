@@ -129,40 +129,6 @@ XOM Dataset
    SVR: Partial XOM
 
    ![image](https://github.com/user-attachments/assets/852c2991-68a2-4eba-8cfd-c1614345e0c8)
-   
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Forecasting
-1)  Stacked LSTM: Forecasting Full JNJ
-
-   ![image](https://github.com/user-attachments/assets/bed191a7-8c9e-46d8-adf3-a8c86da510c9)
-
-   SVM: Forecasting Full JNJ
-
-  ![image](https://github.com/user-attachments/assets/8f094d9b-c5b2-4a67-81e1-ac4d107c2f16)
-
-2) Stacked LSTM: Forecasting Partial JNJ
-
-   ![image](https://github.com/user-attachments/assets/7947b8ec-806d-4208-abcc-ed7e648761c7)
-
-   SVR: Forecasting Partial JNJ
-
-   ![image](https://github.com/user-attachments/assets/fd9ecc6e-b2e3-4af0-a2fb-e49adb9ec64c)
-
-3) Stacked LSTM: Forecasting Full XOM
-
-   ![image](https://github.com/user-attachments/assets/f00cf49e-6651-4eb2-9ac8-5ece2afd3b7e)
-
-   SVR: Forecasting Full XOM
-
-  ![image](https://github.com/user-attachments/assets/50be190e-e0e8-4243-a14e-7e1068e5c8d6)
-
-4) Stacked LSTM: Forecasting Partial XOM
-
-   ![image](https://github.com/user-attachments/assets/59f29708-6787-415d-8b53-85bb9eb3ea5a)
-
-   SVR: Forecasting Partial XOM
-
-  ![image](https://github.com/user-attachments/assets/0276ed95-d63f-44b4-acbe-c1bbfffaa0bc)
 
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
